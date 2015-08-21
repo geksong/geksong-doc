@@ -34,7 +34,7 @@ dependency 必须的有 =spring-boot-starter-web= , =spring-boot-starter-velocit
 
 *** spring boot 启动入口
 spring boot 的启动入口是一个简单的main函数，类必须要@SpringBootApplication注解，在此入口处
-可通过@ImportResource引入你自己的spring xml配置文件。
+可通过@ImportResource引入你自己的spring xml配置文件
 #+BEGIN_SRC java
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
